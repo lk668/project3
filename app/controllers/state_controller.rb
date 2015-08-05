@@ -9,6 +9,7 @@ STATES = ["Alabama", "Alaska", "Arizona", "Arkansas", "California",
     "South Dakota", "Tennessee", "Texas", "Utah", "Vermont",
     "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"];
 
+
 class StateController < ApplicationController
   def filter
     substring = params[:substring]
